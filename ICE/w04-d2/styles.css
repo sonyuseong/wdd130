@@ -1,0 +1,43 @@
+body {
+  background-color: steelblue;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+
+.topic {
+  color: white;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.list {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  list-style-position: inside;
+}
+
+img {
+  width: 300px;
+}
+
+.image {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  width: 350px;
+}
+.quote {
+  font-style: italic;
+  font-size: 20px;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+}
