@@ -1,0 +1,44 @@
+body {
+}
+.card {
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 25px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px black solid;
+}
+
+.card .main {
+    text-align: center;
+    font-family: serif;
+}
+
+img {
+  overflow: visible;
+  width: 100%;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+h4 {
+  color: darkcyan;
+  font-size: 1.9em;
+  margin: 0 auto 25px;
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+h1 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+
+p {
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+footer
