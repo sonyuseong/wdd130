@@ -290,3 +290,133 @@ footer .social img {
     width: 100%;
   }
 }
+
+/*------------------------------------------- detail design ------------------------------------------- */
+
+/*------------------------- hero ----------------------------*/
+#hero-detail {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#hero-box-detail {
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+
+#hero-msg-detail {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+#hero-img-detail {
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#hero-msg-detail h4 {
+  color: white;
+  font-size: 3em;
+  font-family: "Carter One", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/*------------------------- genre ----------------------------*/
+
+#detail section {
+  border: 1px black solid;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#detail-genre {
+}
+
+#detail-genre p {
+  display: inline-block;
+  background-color: #ffe1a8;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 7px 14px;
+  border-radius: 5px;
+  margin: 10px 15px;
+}
+
+/*------------------------- rating ----------------------------*/
+.button-style {
+  background-color: #ffe1a8;
+  font-weight: bold;
+  padding: 7px 14px;
+  margin: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+#detail-rating p,
+#detail-rating img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#detail-rating img {
+  width: 30px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#detail-rating p {
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+#detail-synopsis h4 {
+  font-size: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#logo-detail {
+  width: 100px;
+  margin-right: 20px;
+}
+
+#detail-platform div {
+  display: flex;
+  align-items: center;
+}
+
+#gallery-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  justify-items: center;
+}
+
+#detail-gallery img {
+  width: 90%;
+  height: 350px;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+#gallery-box1 {
+  grid-column-start: 1;
+}
+#gallery-box2 {
+  grid-column-start: 2;
+}
+#gallery-box3 {
+  grid-column-start: 3;
+}
+
+/*------------------------- genre ----------------------------*/
+/*------------------------- genre ----------------------------*/
+/*------------------------- genre ----------------------------*/
+/*------------------------- genre ----------------------------*/
