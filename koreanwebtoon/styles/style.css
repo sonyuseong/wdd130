@@ -375,6 +375,7 @@ footer .social img {
   margin-top: 2px;
   margin-bottom: 5px;
 }
+/*------------------------- synopsis ----------------------------*/
 
 #detail-synopsis h4 {
   font-size: 1.5em;
@@ -387,11 +388,13 @@ footer .social img {
   margin-right: 20px;
 }
 
+/*------------------------- platform ----------------------------*/
 #detail-platform div {
   display: flex;
   align-items: center;
 }
 
+/*------------------------- gallery ----------------------------*/
 #gallery-box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -416,7 +419,107 @@ footer .social img {
   grid-column-start: 3;
 }
 
-/*------------------------- genre ----------------------------*/
-/*------------------------- genre ----------------------------*/
-/*------------------------- genre ----------------------------*/
-/*------------------------- genre ----------------------------*/
+/*------------------------------------------------ searching page -----------------------------------------------*/
+
+#genre-box,
+#title-searching-box {
+  border: 1px black solid;
+  background-color: #ffe1a8;
+  font-weight: bold;
+  padding: 7px 14px;
+  margin: 10px 15px;
+  border-radius: 5px;
+}
+/*------------------------- genre box ----------------------------*/
+#genre-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.genre_button {
+  background-color: #e26d5c;
+  font-weight: bold;
+  padding: 7px 14px;
+  margin: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.genre_button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.searching-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#genre-searching-bar {
+  width: 90%;
+  height: 30px;
+  text-align: center;
+  font-size: 1em;
+}
+.searching-bar a img {
+  width: 30px;
+  height: 30px;
+}
+
+#genre-result-box h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#genre-result-box p {
+  font-size: 0.8em;
+}
+
+#main-searching-bar {
+  width: 90%;
+  height: 30px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.title-searching-result {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 10px 0;
+}
+
+.title-searching-result img {
+  width: 100px;
+  height: auto;
+}
+
+.text-group {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 60%;
+}
+.text-group p {
+  margin: 0;
+  text-align: left;
+  font-size: 0.9em;
+}
+.text-group p:nth-child(1) {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-size: 1.3em;
+}
+.text-group p:nth-child(2) {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.text-group p:nth-child(3) {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+/*------------------------- gallery ----------------------------*/
+/*------------------------- gallery ----------------------------*/
+/*------------------------- gallery ----------------------------*/
+/*------------------------- gallery ----------------------------*/
+/*------------------------- gallery ----------------------------*/
+/*------------------------- gallery ----------------------------*/
